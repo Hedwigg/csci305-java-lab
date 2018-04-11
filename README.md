@@ -75,14 +75,14 @@ This project uses gradle to manage dependencies and to build the project. Thus y
   ```
     .\gradlew.bat clean build
   ```
-2. **Testing the project:** Again, from the project root directory, in the terminal/console run the following command:
+2. **Running the project:** Again, from the project root directory, in the terminal/console run the following command:
   * On Mac and Linux:
   ```
-    ./gradlew clean test
+    ./gradlew clean run
   ```
   * On Windows:
   ```
-    .\gradlew.bat clean test
+    .\gradlew.bat clean run
   ```
 
 ## Implementation
@@ -293,7 +293,12 @@ Each student will complete and submit this assignment individually. Do not consu
 
 Comment your program appropriately.
 
-Save the final version of your program and zip the source code into a file named `[lastname]_[firstname].java_lab.zip`. Type your lab questions in plain text as `[lastname]_[firstname].java_lab.txt`. Include your name in the text file.
+Save the final version of your program and zip the source code into a file named `[lastname]_[firstname].java_lab.zip`. This file should **only include** the following items:
+
+* the entire **directory structure under "src" (including src)**
+* your **build.gradle** file
+* your **settings.gradle** file
+* your **questions.txt** file
 
 We must be able to run your program from the command line with no arguments.
 
